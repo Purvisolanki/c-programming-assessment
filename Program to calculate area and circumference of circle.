@@ -1,0 +1,21 @@
+//Program to calculate area and circumference of circle.
+
+ #include<iostream>
+ #define PI 3.14
+ #define TWO 2.0
+ using namespace std;
+ int main(){
+ float area, circumference, radius;
+ cout<<"Enter the radius";
+ cin>>radius;
+ 
+ // area of circle - PI*radius*radius
+ area = PI * radius *radius;
+ 
+ //Circumference  - 2*PI*radius
+ 
+ circumference = TWO*PI*radius;
+ cout<<"Area is:\n"<<area<<"\n";
+ cout<<"Circumference is:\n"<<circumference<<"\n";
+ return 0;
+ }
