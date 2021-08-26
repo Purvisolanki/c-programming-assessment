@@ -1,0 +1,17 @@
+//program in c++
+
+#include<iostream>
+using namespace std;
+
+int main(){
+	
+	cout<<"size of int is ="<<sizeof(int)<<"bytes"<<endl;
+	cout<<"size of float is ="<<sizeof(float)<<"bytes"<<endl;
+	cout<<"size of double is ="<<sizeof(double)<<"bytes"<<endl;
+	cout<<"size of wchar_t is ="<<sizeof(wchar_t)<<"bytes"<<endl;
+	cout<<"size of bool is ="<<sizeof(bool)<<"bytes"<<endl;
+	cout<<"size of void is ="<<sizeof(void)<<"bytes"<<endl;
+	
+	return 0;
+		
+}
