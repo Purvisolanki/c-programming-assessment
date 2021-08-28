@@ -1,0 +1,22 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	int c/c++ training, discrete structure, OOPs,data structure, java programming ; 
+    float total, average, percentage;
+
+    cout << "Please Enter the marks of five subjects: \n";
+    cin >> c/c++ training >> discrete structure >> OOPs >> data structure>> java programming ; 
+    float total, average, percentage;;
+
+    total = english + chemistry + computers + physics + maths;
+    average = total / 5;
+    percentage = (total / (500)) * 100;
+
+    cout << "\nTotal Marks      = " << total;
+    cout << "\nAverage Marks    = " << average;
+    cout << "\nMarks Percentage = " << percentage;
+ 	return 0;
+}
