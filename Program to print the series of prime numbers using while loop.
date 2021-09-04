@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+ int num;
+ int sum;
+ int i=2;
+ int j;
+ int flag;
+ 
+ cout<<"please enter number "<<endl;
+ cin>>num;
+ 
+ 
+ while(i<=num)
+ {
+ flag=0;
+ 
+ for(j=2;j<i;j++){
+ 
+ 
+ if(i%j==0)
+ {
+ flag=1;
+ }
+ }
+ 
+ 
+ if(flag==0)
+ {
+ cout<<" prime number is"<<i<<endl;
+ }
+ 
+ i++;
+ 
+ }
+    return 0;
+}
