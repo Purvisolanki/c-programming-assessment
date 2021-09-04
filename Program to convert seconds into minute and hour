@@ -1,0 +1,12 @@
+// converting seconds into minute and hour
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int seconds, hours, minutes;
+    cout<<"enter the seconds"<<endl;
+    cin >> seconds;
+    minutes=seconds/60;
+    hours=seconds/3600;
+    cout<<minutes<<"minutes"<<hours<<"hours"<<endl;
+}
