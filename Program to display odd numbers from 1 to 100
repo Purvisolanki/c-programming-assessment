@@ -1,0 +1,20 @@
+#include <iostream.h>  
+   
+int main() {  
+    int counter; 
+    cout<<"Odd numbers between 1 to 100\n";  
+   
+    /* 
+     * Initialize counter with first odd number 1, and increment 
+     * it by 2 in every iteration. 
+     */
+    counter = 1;
+    while (counter <= 100) {  
+        cout<<counter;
+        /* Add 2to current odd number 
+          to get next odd number */
+        counter = counter + 2;  
+    }  
+   
+    return 0;  
+}
